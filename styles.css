@@ -69,6 +69,10 @@ img{
     width: 100%;
 }
 
+#contact{
+    padding-top: 1.25rem;
+}
+
 footer{
     background-color:rgb(247, 244, 244);
 }
