@@ -80,30 +80,14 @@ hr.line-break{
 }
 
 .backtop, .studentname{
-    padding-bottom: 2rem;
+    display: inline-block;
     font-weight: bold;
-    font-size: 100%
+    font-size: 0.950em;
+    padding: 0;
+    margin-bottom: 2em;
+    width: 150px;
 }
 
-.backtop{
-    display:inline-block;
-    margin: auto;
-    text-align: right;
-    padding-right: 1rem;
-}
-
-.studentname{
-    display:inline-block;
-    margin: auto;
-    text-align: left;
-    padding-left: 1rem;
-}
-
-.email-line{
-    border-bottom: 1px solid grey;
-    padding-bottom: 3rem;
-    
-}
 
 #contact{
     padding-top: 1.25rem;
@@ -113,10 +97,69 @@ footer{
     background-color:rgb(247, 244, 244);
 }
 
+.footer-nav{
+    display: none;
+}
+
 /* Media Queries*/
 
 @media screen and (min-width: 768px){
 
+.container{
+    width:100%;
+}
+
+li{
+    display:inline;
+    background-color: inherit;
+    font-weight: bold;
+}
+
+.profile-image{
+    float: right;
+    width: 33%;
+    margin: 2rem 1.5rem 0;
+
+}
+
+.intro-text{
+    text-align: left;
+    font-size: 140%;
+    width: 60%;
+    padding: 1rem 0rem 3rem 2rem;
+}
+
+.profile-image, .intro-text{
+    display: inline-block;
+
+}
+
+.project{
+    display:block;
+    float: left;
+    width: 45%;
+    margin: 19px;
+}
+
+.footer-note{
+    padding: 0px 9rem;
+}
+
+footer{
+    display:inline-block;
+}
+
+.backtop{
+    display: none;
+}
+
+.footer-nav{
+    display: inline-flex;
+}
+.studentname{
+    width: 227px;
+    margin-right: 108px;
+}
 }
 
 @media screen and (min-width: 1024px){
