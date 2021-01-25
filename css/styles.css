@@ -73,6 +73,12 @@ img{
     height:100%;
 }
 
+hr.line-break{
+    width: 85%;
+    border: 1px solid grey;
+
+}
+
 .backtop, .studentname{
     padding-bottom: 2rem;
     font-weight: bold;
