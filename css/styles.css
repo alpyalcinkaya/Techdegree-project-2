@@ -169,7 +169,7 @@ footer{
 }
 .studentname{
     width: 227px;
-    margin-right: 108px;
+    margin-right: 2%;
 }
 }
 
@@ -183,7 +183,7 @@ h1{
     display: inline-block;
     font-size: 23px;
     padding: 50px 50px;
-    margin-right: 370px;
+    margin-right: 23%;
     font-weight: bold;
 }
 
