@@ -99,6 +99,11 @@ hr.line-break{
     width: 150px;
 }
 
+.backtop{
+    display: inline;
+    float: right;
+}
+
 
 #contact{
     padding-top: 1.25rem;
@@ -166,6 +171,7 @@ footer{
 
 .footer-nav{
     display: inline-flex;
+    float: right;
 }
 .studentname{
     width: 227px;
@@ -188,11 +194,13 @@ h1{
 }
 
 .main-nav{
-    display: inline-block;
+    display: block;
+    float: right;
 }
 
 .profile-image{
     margin: 0 38px 0 0;
+    max-width: 320px;
 }
 
 
@@ -214,7 +222,8 @@ h1{
 }
 
 .footer-nav{
-    display: inline-block;
+    display: inline;
+    float: right;
 }
 
 }
